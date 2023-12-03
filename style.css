@@ -1,0 +1,90 @@
+body {
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+.main {
+	margin: 0;
+}
+
+h1,
+h2 {
+	font-family: 'DM Serif Display', serif;
+}
+
+button {
+	border: 1px solid blueviolet;
+	background: transparent;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: rgb(138, 43, 226);
+	color: blueviolet;
+}
+
+button:active {
+	background-color: rgb(43, 223, 226);
+	color: blueviolet;
+}
+
+.subtitle {
+	border-left: 5px solid chocolate;
+	padding-left: 10px;
+	color: blueviolet;
+	margin-top: 30px;
+}
+
+.text {
+	text-align: center;
+	color: blueviolet;
+	border-top: 1px solid blueviolet;
+}
+
+
+.photo {
+	box-sizing: border-box;
+	width: 450px;
+	height: auto;
+	border: 1px solid gray;
+}
+
+span {
+	color: blueviolet;
+	font-style: italic;
+	font-weight: 900;
+}
+
+tr {
+	background-color: rgb(21, 230, 232);
+}
+
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 20px;
+	border-bottom: 1px solid blueviolet;
+	text-align: center;
+}
+
+.img-wrapper {
+	background-color: rgb(98, 60, 139);
+	padding: 20px 0 20px;
+	text-align: center;
+	width: 500px;
+	margin: 0 auto;
+}
+
+.contacts-item {
+	display: flex;
+}
+
+.contacts-item-item {
+	display: flex;
+
+}
+
+.title {
+	color: black;
+	text-align: center;
+}
